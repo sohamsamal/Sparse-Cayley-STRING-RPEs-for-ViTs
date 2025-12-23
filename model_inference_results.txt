@@ -1,0 +1,30 @@
+C:\Users\hy2864\PycharmProjects\LGM\.venv\Scripts\python.exe C:\Users\hy2864\PycharmProjects\PE\model_inference.py 
+Using device: cuda
+Files already downloaded and verified
+Device: cuda
+
+dataset | model                | params(M) | best_acc | best_epoch | train_s/epoch | train_s_total | ms/batch | ms/img
+------------------------------------------------------------------------------------------------------------------------------
+Using device: cuda
+Using device: cuda
+Using device: cuda
+Using device: cuda
+mnist   | baseline             |    0.117 | 0.9680  | 8          | 42.92       | 343.4        |   11.59 |  0.091
+Using device: cuda
+Using device: cuda
+Using device: cuda
+Using device: cuda
+mnist   | blockdiag2x2     |    0.115 | 0.9595  | 9          | 27.43       | 246.9        |    8.28 |  0.065
+
+Using device: cuda
+Using device: cuda
+Using device: cuda
+Using device: cuda
+cifar10 | baseline             |    0.118 | 0.7369  | 24         | 47.59       | 1142.2       |   12.58 |  0.098
+Using device: cuda
+Using device: cuda
+Using device: cuda
+Using device: cuda
+cifar10 | blockdiag2x2    |    0.116 | 0.7299  | 24         | 24.33       | 583.9        |    9.54 |  0.075
+
+
